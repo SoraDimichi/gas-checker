@@ -5,6 +5,7 @@
   "description": "A simple tool to check current gas price.",
   "main": "src/index.ts",
   "license": "MIT",
+  "homepage": "https://soradimichi.github.io/gas-checker",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -17,9 +18,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gh-pages": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "@preact/preset-vite": "^2.9.3",
     "vite": "^6.0.6"
   }

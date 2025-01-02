@@ -1,0 +1,26 @@
+{
+  "name": "gas-checker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple tool to check current gas price.",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "preact": "^10.25.4",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.3",
+    "vite": "^6.0.6"
+  }
+}
